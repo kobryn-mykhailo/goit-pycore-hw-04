@@ -21,7 +21,7 @@ def total_salary(path):
     
 
 total, average = total_salary("data/salary_file.txt")
-# print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}")
+# print(f"Загальна сума заробітної плати: {total}, Середня заробітна плата: {average}") # verification of the function result
 
 
 # hw.04 Task 2: Extract informatin about cats from the external file and present it in dictionary
@@ -45,4 +45,4 @@ def get_cats_info(path):
         print(f"File {path} not found.")
         return None
 
-print(get_cats_info("data/cats.txt"))
+# print(get_cats_info("data/cats.txt")) # verification of the function result
