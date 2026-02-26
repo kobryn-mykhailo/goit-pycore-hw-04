@@ -45,4 +45,4 @@ if not directory.is_dir():
 print(f"{Fore.BLUE}{directory.name}{Fore.RESET}")
 print_directory_structure(directory)
 
-# test sample to run in terminal: "python homework_04.py venv\Lib\site-packages\colorama"
+# test sample to run in terminal: "python homework_04_task3.py venv\Lib\site-packages\colorama"
